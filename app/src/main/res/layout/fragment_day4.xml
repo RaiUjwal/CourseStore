@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="org.sddtu.exampleproject.Fragments.day4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEMESTER 4"
+        android:id="@+id/day_4"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/list_view4"
+        ></ListView>
+</FrameLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dev_by"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="org.sddtu.exampleproject.DevBy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+       <ImageView
+
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:src="@drawable/abclogo"
+           />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_weight="0.40">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UJWAL RAI"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:textColor="#2e6ca0"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    />
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/github"
+                    app:backgroundTint="#fff"
+                    android:id="@+id/mohit_git"
+                    android:layout_weight="0.0" />
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundTint="#fff"
+                    android:id="@+id/mohit_link"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="right|end"
+                    android:src="@drawable/linkedin"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+            </LinearLayout>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="#0d1f2d"
+            android:textStyle="bold"
+            android:text="For any Feedback or bug report,\nmail at thecoursestore@gmail.com"
+            />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

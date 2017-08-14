@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="org.sddtu.exampleproject.coursedetails">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="#e53f3f"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="CSE/IT"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteY="367dp"
+        tools:layout_editor_absoluteX="27dp"
+        android:layout_marginTop="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/button2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="#e53f3f"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="MAE"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteY="295dp"
+        tools:layout_editor_absoluteX="27dp"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="#e53f3f"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="ECE"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteY="217dp"
+        tools:layout_editor_absoluteX="27dp"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="52dp"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_button"
+        android:backgroundTint="#e53f3f"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:text="CIVIL"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteY="136dp"
+        tools:layout_editor_absoluteX="27dp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button3" />
+</RelativeLayout>
